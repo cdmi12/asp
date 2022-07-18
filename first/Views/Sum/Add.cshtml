@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewData["Title"] = "Add";
+}
+
+<form method="post">
+    <table>
+        <tr>
+            <td>Enter A:</td>
+            <td><input type="text" name="a"/></td>
+        </tr>
+        <tr>
+            <td>Enter B:</td>
+            <td><input type="text" name="b"/></td>
+        </tr>
+        <tr>
+            <td>Ans:</td>
+            <td><input type="text" value="@ViewBag.total" readonly /></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" name="add" value="addition" /><input type="submit" name="sub" value="sub"/></td>
+        </tr>
+    </table>
+</form>
+
+
